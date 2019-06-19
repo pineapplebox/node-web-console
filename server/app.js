@@ -40,5 +40,5 @@ router.post('/rpc', c2k(RPCServer.middleware()))
 
 server.use(router.routes()).use(router.allowedMethods())
 
-server.listen(80)
-console.log('server started and listens on port 80')
+server.listen(8080)
+console.log('server started and listens on port 8080')
